@@ -12,6 +12,7 @@ This folder includes:
 - **Beginner Programs** – Simple Calculator.
 - **Intermediate Projects** – Webscraper. 
 - **Math & Data Projects** – Cramer’s Rule.
+- **And other projects**
 
 ---
 
@@ -26,7 +27,7 @@ This folder includes:
 
 ## 🚀 How to Run the Projects  
 1. Clone this repository:  
-   git clone https://github.com/LindokuhleHlatshwayo/Python-Projects.git
+   git clone https://github.com/lindokuhlecebisa/Python-Projects.git
    
 2. Navigate into the project folder:
     cd python-projects
