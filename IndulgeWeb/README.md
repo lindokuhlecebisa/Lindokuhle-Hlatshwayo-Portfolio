@@ -21,12 +21,14 @@ We focus on creating practical, efficient, and scalable tech solutions that empo
 
 ---
 
-## 📂 Repository Contents  
-This repository serves as a portfolio and central hub for IndulgeTech’s work.  
+## 📂 Folder Contents  
+This folder serves as a portfolio and central hub for IndulgeTech’s work.  
 It includes:  
-- **Indulge Website** (built with HTML, CSS, JavaScript, and Tailwind)  
-- **Python Projects** (automation, data processing, and learning resources)  
-- **Personal Portfolio** showcasing completed and ongoing projects  
+- **Indulge Landing Page** (This page serves as the main entry point.)  
+- **About Us Page** (This page details the company's mission and core values.)  
+- **Services Page** (This page outlines the different services offered by Indulge Tech.)
+- **Login and Sign-up Pages** (These pages are designed for user authentication.)  
+- **Support & FAQ Page** (This page provides answers to frequently asked questions and offers contact information for the support team.) 
 
 ---
 
@@ -34,12 +36,12 @@ It includes:
 - **Founder**: Lindokuhle Hlatshwayo  
 - **Email**: [lindokuhlecebisa7@gmail.com](mailto:lindokuhlecebisa7@gmail.com)  
 - **LinkedIn**: [Lindokuhle Hlatshwayo](https://www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381/) 
-- **GitHub**: [LindokuhleHlatshwayo](https://github.com/LindokuhleHlatshwayo)  
+- **GitHub**: [LindokuhleHlatshwayo](https://github.com/lindokuhlecebisa)  
 
 ---
 
 ## ⚖️ License  
-This repository is for **personal and academic use only**.  
-Please do not use, copy, or redistribute without permission.  
+This folder is for **portfolio and professional use only**.  
+Please do not copy, modify, or redistribute the content without permission.  
 
 ---
