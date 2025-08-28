@@ -39,7 +39,7 @@ It includes:
 ---
 
 ## ⚖️ License  
-This repository is licensed under the **MIT License**.  
-And please start reading the codes from the Landing page 
+This repository is for **personal and academic use only**.  
+Please do not use, copy, or redistribute without permission.  
 
 ---
