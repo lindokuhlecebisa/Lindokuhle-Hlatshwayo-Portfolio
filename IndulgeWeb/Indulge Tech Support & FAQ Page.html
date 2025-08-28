@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & FAQ - Indulge Tech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1A1A1A; 
+            color: #E0E0E0; 
+            margin: 0;
+            padding: 0;
+            cursor: none; /* Hide the default cursor */
+        }
+
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 30px;
+            border-bottom: 1px solid #9C27B0; 
+            text-align: center;
+            position: relative; /* Needed for positioning the button */
+        }
+        
+        .home-button {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 8px 16px;
+            background-color: #03A9F4; /* Blue color */
+            color: #1A1A1A;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .home-button:hover {
+            background-color: #E91E63; /* Pink hover color */
+        }
+        
+        h1 {
+            color: #E91E63; 
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        /* The hovering dot for the cursor */
+        #dot-of-i {
+            position: fixed; /* Changed to fixed to follow the cursor globally */
+            width: 15px; /* Slightly larger dot */
+            height: 15px;
+            background: #ff00ff; /* Pink color */
+            border-radius: 50%; /* Makes it a circle */
+            box-shadow: 0 0 10px #ff00ff;
+            pointer-events: none; /* Allows mouse events to pass through */
+            transition: transform 0.1s ease-out, background-color 0.2s; /* Smooth movement */
+            z-index: 9999;
+            transform: translate(-50%, -50%); /* Center the dot on the cursor */
+        }
+    
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            background-color: #2c2c2c; 
+            padding: 2.5rem;
+            border-radius: 12px;
+            margin-top: 2rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            text-align: center;
+            color: #03A9F4; 
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+
+        h3 {
+            color: #9C27B0; 
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #ccc;
+            margin-bottom: 1rem;
+        }
+
+        .faq-item {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #444; 
+        }
+        
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+
+        .contact-info p {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info a {
+            color: #03A9F4;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-info a:hover {
+            color: #E91E63;
+        }
+
+
+        footer {
+            background-color: #2c2c2c;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9em;
+            color: #bbb;
+            margin-top: 2rem;
+        }
+
+        .heart {
+            color: #E91E63;
+        }
+    </style>
+</head>
+<body>
+    <span id="dot-of-i"></span>
+    
+    <header>
+        <a href="Indulge Tech Landing page.html" class="home-button">Home</a>
+        <h1>Indulge Tech Support</h1>
+    </header>
+
+    <main class="container">
+
+        <section>
+            <p>
+                Welcome to the Indulge Tech support page. We are here to help you with any questions or issues you might have. Please check our Frequently Asked Questions below, or contact our team directly for personalized assistance.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="faq-item">
+                <h3>Account and Security</h3>
+                <p>
+                    <strong>Q: How do I reset my password?</strong><br>
+                    A: You can reset your password by clicking the "Forgot Password" link on the login page. You will then receive an email with instructions on how to create a new password.
+                </p>
+                <p>
+                    <strong>Q: Is my personal information secure?</strong><br>
+                    A: Yes, we use industry-standard encryption and security protocols to protect your data. Our commitment to your privacy is a top priority.
+                </p>
+                <p>
+                    <strong>Q: Can I change my username?</strong><br>
+                    A: To change your username, please contact our support team directly. For security reasons, this change requires manual verification.
+                </p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Services and Billing</h3>
+                <p>
+                    <strong>Q: What services does Indulge Tech offer?</strong><br>
+                    A: We specialize in custom software development, cloud solutions, cybersecurity, and data analytics. Visit our Services page for a detailed breakdown of our offerings.
+                </p>
+                <p>
+                    <strong>Q: How can I view my billing history?</strong><br>
+                    A: You can access your billing history and invoices through your account dashboard after logging in. If you have any issues, please contact our support team.
+                </p>
+                <p>
+                    <strong>Q: What payment methods do you accept?</strong><br>
+                    A: We accept all major credit cards, bank transfers, and several digital payment platforms.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Technical Support</h3>
+                <p>
+                    <strong>Q: The application is not loading. What should I do?</strong><br>
+                    A: First, try clearing your browser's cache and cookies. If the issue persists, please try accessing the application from a different browser. If it is still not working, let us know and we will investigate the issue.
+                </p>
+                <p>
+                    <strong>Q: I found a bug. How do I report it?</strong><br>
+                    A: We appreciate your help in making our services better. Please report any bugs you find by emailing our support team with a detailed description, including steps to reproduce the bug and screenshots if possible.
+                </p>
+                <p>
+                    <strong>Q: Do you offer a knowledge base or tutorials?</strong><br>
+                    A: We are currently developing a comprehensive knowledge base with articles and video tutorials. Stay tuned for updates!
+                </p>
+            </div>
+        </section>
+
+
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>
+                If you can't find the answer you're looking for, feel free to reach out to our support team.
+            </p>
+            <p><strong>Email:</strong> <a href="mailto:support@indulgetech.com">support@indulgetech.com</a></p>
+            <p><strong>Phone:</strong> (555) 123-4567</p>
+            <p><strong>Business Hours:</strong> Monday - Friday, 9:00 AM - 5:00 PM (SAST)</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Indulge Tech. All rights reserved.</p>
+            <p class="mt-2">Built with <span class="heart">&hearts;</span> and Tailwind CSS.</p>
+        </div>
+    </footer>
+    <script>
+        // Dot tracking functionality
+        document.addEventListener('mousemove', function(e) {
+            const dot = document.getElementById('dot-of-i');
+            if (dot) {
+                // Update the dot's position based on the mouse coordinates
+                dot.style.left = e.clientX + 'px';
+                dot.style.top = e.clientY + 'px';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indulge Tech Landing Page</title>
+    <style>
+        /* Global Styles for the body */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a0f21;
+            color: #e0e0e0;
+            cursor: none; /* Hide the default cursor for the custom dot */
+        }
+
+        /* Styles for the header and navigation */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #2a1a36; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        header .logo a {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #ff00ff; 
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #b0e0e6;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff00ff;
+        }
+
+        /* Styles for the login and register buttons */
+        .header-buttons a {
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-left: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            text-decoration: none; /* Remove underline from links */
+            display: inline-block; /* Allows padding to be applied correctly */
+        }
+
+        .login-btn {
+            background-color: transparent;
+            color: #00ffff;
+            border: 2px solid #00ffff;
+        }
+
+        .login-btn:hover {
+            background-color: #00ffff;
+            color: #1a0f21;
+        }
+
+        .register-btn {
+            background-color: #ff00ff;
+            color: #1a0f21;
+        }
+
+        .register-btn:hover {
+            background-color: #a020f0;
+            color: #e0e0e0;
+        }
+
+        /* The dot for the cursor */
+        #dot-of-i {
+            position: fixed; 
+            width: 15px; 
+            height: 15px;
+            background: #ff00ff; 
+            border-radius: 50%; 
+            box-shadow: 0 0 10px #ff00ff;
+            pointer-events: none; 
+            transition: transform 0.1s ease-out, background-color 0.2s; 
+            z-index: 9999;
+            transform: translate(-50%, -50%);
+        }
+        
+        /* Styles for the hero section */
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 0;
+            max-width: 1200px;
+            margin: 50px auto;
+            background-color: #2a1a36; 
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            overflow: hidden; 
+            min-height: 400px;
+        }
+
+        .hero-image {
+            flex: 0 0 40%; 
+            width: 40%;
+            height: 100%;
+            object-fit: cover; 
+            min-height: 400px;
+            border-radius: 8px 0 0 8px;
+
+            background-image: url('Indulge Logo with Title.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-content {
+            flex: 1; 
+            padding: 40px;
+            text-align: left;
+        }
+
+        .hero-content h1 {
+            font-size: 48px;
+            color: #00ffff; 
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #e0e0e0;
+            margin-bottom: 30px; 
+        }
+
+        .cta-btn {
+            padding: 15px 30px;
+            background: linear-gradient(to right, #00ffff, #a020f0); 
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 255, 255, 0.4);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+            background-color: #2a1a36;
+            color: #b0e0e6;
+            font-size: 14px;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive styles for smaller screens */
+        @media (max-width: 768px) {
+            .hero-section {
+                flex-direction: column; 
+                padding: 20px;
+            }
+
+            .hero-image {
+                width: 100%;
+                height: 200px; 
+                border-radius: 8px 8px 0 0; 
+            }
+
+            .hero-content {
+                width: 100%;
+                padding: 30px;
+                text-align: center; 
+            }
+
+            .hero-content h1 {
+                font-size: 36px;
+            }
+
+            header {
+                flex-direction: column;
+                padding: 15px 20px;
+            }
+
+            nav ul {
+                margin-top: 15px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            nav ul li {
+                margin: 5px 10px;
+            }
+
+            .header-buttons {
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <span id="dot-of-i"></span>
+
+    <header>
+        <div class="logo">
+            <a href="#home">Indulge Tech</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Indulge Tech Landing page.html">Home</a></li>
+                <li><a href="Indulge Tech Service Page.html">Services</a></li>
+                <li><a href="Indulge Tech About us page.html">About Us</a></li>
+                <li><a href="Indulge Tech Support & FAQ Page.html">Support & FAQ</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-buttons">
+            <a href="Indulge Tech Login page.html" class="login-btn">Login</a>
+            <a href="Indulge Tech Sign up Page.html" class="register-btn">Register</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <img class="hero-image" src="Indulge Logo with Title.png" alt="A futuristic digital swirl background with pink, purple, and blue circuits.">
+            <div class="hero-content">
+                <h1>A Gateway to Innovative Technology</h1>
+                <p>
+                    Indulge Tech is a pioneering IT company dedicated to providing innovative solutions that help businesses thrive in the digital age. 
+                    From custom software development to cybersecurity and cloud computing, we offer a full suite of services designed to meet your every technological need.
+                </p>
+                <button id="get-in-touch-btn" class="cta-btn">Get in Touch</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Indulge Tech. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const getInTouchBtn = document.getElementById("get-in-touch-btn");
+
+            // Custom modal for the alert message to avoid browser pop-ups
+            function showMessage(message) {
+                const modal = document.createElement('div');
+                modal.style.position = 'fixed';
+                modal.style.top = '50%';
+                modal.style.left = '50%';
+                modal.style.transform = 'translate(-50%, -50%)';
+                modal.style.padding = '20px';
+                modal.style.backgroundColor = '#2a1a36';
+                modal.style.border = '1px solid #ff00ff';
+                modal.style.borderRadius = '10px';
+                modal.style.boxShadow = '0 0 20px rgba(0, 0, 0, 0.5)';
+                modal.style.zIndex = '10000';
+                modal.style.textAlign = 'center';
+                modal.style.color = '#e0e0e0';
+                modal.innerHTML = `<p>${message}</p><button onclick="this.parentNode.remove()" style="margin-top: 15px; padding: 10px 20px; background-color: #00ffff; color: #1a0f21; border: none; border-radius: 5px; cursor: pointer;">Close</button>`;
+                document.body.appendChild(modal);
+            }
+
+            getInTouchBtn.addEventListener("click", function() {
+                showMessage("Thanks for your interest! We'll be in touch soon.");
+            });
+
+            // Dot tracking functionality
+            const dot = document.getElementById('dot-of-i');
+            document.addEventListener('mousemove', function(e) {
+                if (dot) {
+                    dot.style.left = e.clientX + 'px';
+                    dot.style.top = e.clientY + 'px';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
