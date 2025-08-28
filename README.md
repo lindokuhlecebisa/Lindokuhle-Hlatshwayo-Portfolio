@@ -18,7 +18,7 @@ I’m passionate about using technology to solve real-world problems and continu
 This repository includes:  
 - **Portfolio Website** – A responsive personal website showcasing my background and projects.  
 - **Python Projects** – Programs focusing on automation, data handling, and beginner–intermediate concepts.  
-- **Web Projects** – Creative web applications and experiments.  
+- **IndulgeWeb** – Creative web applications and experiments.  
 - **Resume & Career Highlights** – Documentation of my academic and leadership journey.  
 
 ---
