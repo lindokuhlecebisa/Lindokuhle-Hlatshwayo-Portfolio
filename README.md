@@ -50,7 +50,7 @@ This repository includes:
 ## 📬 Contact  
 - **Email:** [lindokuhlecebisa7@gmail.com](mailto:lindokuhlecebisa7@gmail.com)  
 - **LinkedIn:** [Lindokuhle Hlatshwayo](https://www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381/) 
-- **GitHub:** [LindokuhleHlatshwayo](https://github.com/LindokuhleHlatshwayo)  
+- **GitHub:** [LindokuhleHlatshwayo](https://github.com/LindokuhleHlatshwayo/)  
 
 ---
 
