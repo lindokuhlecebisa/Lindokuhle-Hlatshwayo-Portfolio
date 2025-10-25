@@ -15,27 +15,25 @@ I’m passionate about using technology to solve real-world problems and continu
 ---
 
 ## 🌐 Live Portfolio (GitHub Pages)
-'''
+
 You can view my live portfolio website here:
 https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/
-'''
+
 ---
 
-## 📂 Repository Structure
-
+📂 Repository Structure
 This repository is organized as follows:
-'''
+
 Lindokuhle-Hlatshwayo-Portfolio/
 │
-├─ index.html ← Personal portfolio website (homepage)
-├─ images/ ← All images used in the portfolio
-├─ projects/ ← All projects
-│ ├─ web/ ← Web projects
-│ │ └─ Each project in its own folder with index.html
-│ └─ python/ ← Python projects
-├─ documents/ ← Resume, certificates, and career highlights
-├─ README.md ← This file
-'''
+├─ index.html          ← Personal portfolio website (homepage)
+├─ images/             ← All images used in the portfolio
+├─ projects/           ← All projects
+│  ├─ web/             ← Web projects
+│  │  └─ Each project in its own folder with index.html
+│  └─ python/          ← Python projects
+├─ documents/          ← Resume, certificates, and career highlights
+└─ README.md           ← This file
 
 ---
 
