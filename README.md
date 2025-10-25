@@ -14,9 +14,7 @@ I’m passionate about using technology to solve real-world problems and continu
 
 ---
 
-## 🌐 Live Portfolio (GitHub Pages)
-
-## Live Projects
+## 🌐 Live Projects
 
 | Page | Description | Live Link |
 | :--- | :--- | :--- |
