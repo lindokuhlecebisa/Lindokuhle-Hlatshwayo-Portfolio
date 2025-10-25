@@ -21,7 +21,8 @@ https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/
 
 ---
 
-📂 Repository Structure
+## 📂 Repository Structure
+
 This repository is organized as follows:
 
 Lindokuhle-Hlatshwayo-Portfolio/
