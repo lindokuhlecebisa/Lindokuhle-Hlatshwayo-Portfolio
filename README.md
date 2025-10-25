@@ -24,7 +24,7 @@ https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/
 ## 📂 Repository Structure
 
 This repository is organized as follows:
-
+<pre>
 Lindokuhle-Hlatshwayo-Portfolio/
 │
 ├─ index.html          ← Personal portfolio website (homepage)
@@ -35,7 +35,7 @@ Lindokuhle-Hlatshwayo-Portfolio/
 │  └─ python/          ← Python projects
 ├─ documents/          ← Resume, certificates, and career highlights
 └─ README.md           ← This file
-
+</pre>
 ---
 
 ## 🛠️ Skills  
