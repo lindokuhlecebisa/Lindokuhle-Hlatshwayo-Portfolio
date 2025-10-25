@@ -14,12 +14,24 @@ I’m passionate about using technology to solve real-world problems and continu
 
 ---
 
-## 📂 Repository Contents  
-This repository includes:  
-- **Portfolio Website** – A responsive personal website showcasing my background and projects.  
-- **Python Projects** – Programs focusing on automation, data handling, and beginner–intermediate concepts.  
-- **IndulgeWeb** – Creative web applications and experiments.  
-- **Resume & Career Highlights** – Documentation of my academic and leadership journey.  
+## 🌐 Live Portfolio (GitHub Pages)
+
+You can view my live portfolio website here:
+https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/
+
+--
+
+## 📂 Repository Structure  
+Lindokuhle-Hlatshwayo-Portfolio/
+│
+├─ index.html                  ← Personal portfolio website (homepage)
+├─ projects/                   ← All projects
+│   ├─ web/                    ← Web projects
+│   │   └─ Each project in its own folder with index.html
+│   └─ python/                 ← Python projects
+├─ documents/                  ← Resume, certificates, and career highlights
+├─ README.md                   ← This file
+
 
 ---
 
