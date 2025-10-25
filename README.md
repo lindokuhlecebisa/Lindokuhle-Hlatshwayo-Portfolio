@@ -19,7 +19,7 @@ I’m passionate about using technology to solve real-world problems and continu
 You can view my live portfolio website here:
 https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/
 
---
+---
 
 ## 📂 Repository Structure  
 Lindokuhle-Hlatshwayo-Portfolio/
