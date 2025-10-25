@@ -16,9 +16,17 @@ I’m passionate about using technology to solve real-world problems and continu
 
 ## 🌐 Live Portfolio (GitHub Pages)
 
-You can view my live portfolio website here:
-https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/
+## Live Projects
 
+| Page | Description | Live Link |
+| :--- | :--- | :--- |
+| **Portfolio Homepage** | The central hub showcasing my skills, projects, and contact information. | [View Site](https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/) |
+| **Indulge Tech Landing** | The main entry point, designed for user acquisition and product introduction. | [View Page](https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/Projects/web/Indulge%20Tech/Indulge%20Tech%20Landing%20page.html) |
+| **Indulge Tech About** | Details the company's mission, values, and team structure. | [View Page](https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/Projects/web/Indulge%20Tech/Indulge%20Tech%20About%20us%20page.html) |
+| **Indulge Tech Services** | Outlines the specific offerings and solutions available to clients. | [View Page](https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/Projects/web/Indulge%20Tech/Indulge%20Tech%20Service%20Page.html) |
+| **Indulge Tech Login** | A clean, responsive interface for existing users to access their accounts. | [View Page](https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/Projects/web/Indulge%20Tech/Indulge%20Tech%20Login%20Page.html) |
+| **Indulge Tech Sign Up** | A user-friendly form designed for new account registration. | [View Page](https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/Projects/web/Indulge%20Tech/Indulge%20Tech%20Sign%20up%20Page.html) |
+| **Indulge Tech Support** | A dedicated resource for common questions and troubleshooting assistance. | [View Page](https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Portfolio/Projects/web/Indulge%20Tech/Indulge%20Tech%20Support%20&%20FAQ%20Page.html) |
 ---
 
 ## 📂 Repository Structure
