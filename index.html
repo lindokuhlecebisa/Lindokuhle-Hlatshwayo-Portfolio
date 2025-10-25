@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lindokuhle Hlatshwayo - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Animated dot */
+    #moving-dot {
+      transition: transform 0.15s ease-out;
+    }
+    
+    /* Custom floating dot cursor */
+    #dot-of-i {
+        position: fixed; 
+        width: 15px; 
+        height: 15px;
+        background: #ff00ff; 
+        border-radius: 50%; 
+        box-shadow: 0 0 10px #ff00ff;
+        pointer-events: none; 
+        transition: transform 0.1s ease-out, background-color 0.2s; 
+        z-index: 9999;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Card hover effect */
+    .card {
+      transition: all 0.3s ease-in-out;
+    }
+    .card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 0 20px rgba(54, 198, 232, 0.3);
+    }
+    /* Ensure the anchor tag covers the entire card area */
+    .card a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+    }
+  </style>
+</head>
+<body class="bg-[#1C1217] text-gray-300 font-sans relative overflow-x-hidden" style="cursor: none;">
+  <!-- Floating dot element -->
+  <span id="dot-of-i"></span>
+
+  <!-- Background Blobs -->
+  <div class="absolute top-0 left-0 w-72 h-72 bg-[#C03998]/20 rounded-full blur-3xl animate-pulse"></div>
+  <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#36C6E8]/20 rounded-full blur-3xl animate-ping"></div>
+
+  <!-- Hero Section -->
+  <header class="relative z-10 text-center py-20">
+    <h1 class="text-5xl font-extrabold">
+      <span class="bg-gradient-to-r from-[#C03998] via-[#E836A3] to-[#36C6E8] bg-clip-text text-transparent">
+        Lindokuhle Hlatshwayo
+      </span>
+    </h1>
+    <p class="mt-4 text-lg text-gray-400">Computer Science & IT Student | Aspiring Developer</p>
+    <a href="#projects" class="inline-block mt-6 bg-gradient-to-r from-[#C03998] to-[#E836A3] text-white px-8 py-3 rounded-full text-lg font-semibold hover:from-[#E836A3] hover:to-[#36C6E8] transition duration-300 transform hover:scale-105 shadow-lg">
+      View My Work
+    </a>
+  </header>
+
+  <!-- Divider -->
+  <div class="w-full h-16 bg-gradient-to-r from-[#C03998] via-[#E836A3] to-[#36C6E8]"></div>
+
+  <!-- About Me Section -->
+  <section id="about" class="relative z-10 py-20 max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold mb-8 bg-gradient-to-r from-[#36C6E8] to-[#E836A3] bg-clip-text text-transparent">
+      About Me
+    </h2>
+    <p class="text-gray-400 leading-relaxed text-lg">
+      I am a passionate Computer Science and IT student at the University of KwaZulu-Natal with a strong interest in building
+      impactful technology solutions. With experience ranging from academic projects to leadership roles in organizations like TASA, 
+      I strive to blend creativity and problem-solving skills in every project I take on.  
+      My goal is to grow into a versatile developer who contributes to meaningful innovations while continuously learning and adapting 
+      to the fast-paced world of technology.
+    </p>
+  </section>
+
+    <!-- Skills Section -->
+  <section id="skills" class="relative z-10 py-20 max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold mb-12 bg-gradient-to-r from-[#36C6E8] to-[#E836A3] bg-clip-text text-transparent">
+      Skills & Tools
+    </h2>
+    <div class="flex flex-wrap justify-center gap-6">
+      <span class="px-4 py-2 bg-[#C03998]/20 border border-[#C03998] rounded-full text-white hover:bg-[#C03998]/30 transition">HTML</span>
+      <span class="px-4 py-2 bg-[#E836A3]/20 border border-[#E836A3] rounded-full text-white hover:bg-[#E836A3]/30 transition">CSS</span>
+      <span class="px-4 py-2 bg-[#36C6E8]/20 border border-[#36C6E8] rounded-full text-white hover:bg-[#36C6E8]/30 transition">JavaScript</span>
+      <span class="px-4 py-2 bg-[#36C6E8]/20 border border-[#36C6E8] rounded-full text-white hover:bg-[#36C6E8]/30 transition">Python</span>
+      <span class="px-4 py-2 bg-[#E836A3]/20 border border-[#E836A3] rounded-full text-white hover:bg-[#E836A3]/30 transition">GitHub</span>
+      <span class="px-4 py-2 bg-[#36C6E8]/20 border border-[#36C6E8] rounded-full text-white hover:bg-[#36C6E8]/30 transition">Java</span>
+      <span class="px-4 py-2 bg-[#C03998]/20 border border-[#C03998] rounded-full text-white hover:bg-[#C03998]/30 transition">Microsoft Office Suite</span>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="relative z-10 py-20 max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-[#C03998] to-[#36C6E8] bg-clip-text text-transparent">
+      Projects
+    </h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 p-6 rounded-2xl shadow-lg">
+        <a href="Indulge Tech/Indulge Tech Landing page.html">
+          <h3 class="text-xl font-bold flex items-center gap-2 text-white">
+            🌐 Indulge Tech Website
+          </h3>
+          <p class="mt-3 text-gray-400">A Responsive and Aesthetically Cohesive Web Presence for "Indulge Tech".<br> (HTML, CSS, JavaScript)</p>
+        </a>
+      </div>
+      <div class="card bg-[#1C1217] border border-[#E836A3]/30 p-6 rounded-2xl shadow-lg">
+        <a href="Python Projects/web_scraper.py">
+          <h3 class="text-xl font-bold flex items-center gap-2 text-white">
+            🔎🌐 WebScraper
+          </h3>
+          <p class="mt-3 text-gray-400">A web scraping tool designed to extract data from websites efficiently.<br> (Python, BeautifulSoup, Scrapy)</p>
+        </a>
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 p-6 rounded-2xl shadow-lg">
+        <a href="Python Projects/randompasswordgenerator.py">
+          <h3 class="text-xl font-bold flex items-center gap-2 text-white">
+            🎲🔑 Random Password Generator
+          </h3>
+          <p class="mt-3 text-gray-400">A tool to generate secure random passwords.<br> (Python)</p>
+        </a>
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 p-6 rounded-2xl shadow-lg">
+        <a href="Python Projects/Unit Converter.py">
+          <h3 class="text-xl font-bold flex items-center gap-2 text-white">
+            ⚖️ Unit Converter
+          </h3>
+          <p class="mt-3 text-gray-400">A tool to convert between different units of measurement.<br> (Python)</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="relative z-10 py-20 bg-[#1C1217]/80 text-center">
+    <h2 class="text-4xl font-bold mb-8 bg-gradient-to-r from-[#E836A3] to-[#36C6E8] bg-clip-text text-transparent">
+      Get In Touch
+    </h2>
+    <p class="text-gray-400 mb-6">Interested in collaborating or just want to connect? Let’s talk.</p>
+    <div class="flex flex-col md:flex-row gap-6 justify-center">
+      <a href="mailto:lindokuhlecebisa7@gmail.com" class="inline-block bg-gradient-to-r from-[#36C6E8] to-[#C03998] text-white px-8 py-3 rounded-full text-lg font-semibold hover:from-[#C03998] hover:to-[#E836A3] transition duration-300 transform hover:scale-105 shadow-lg">
+        📧 Email Me
+      </a>
+      <a href="https://github.com/lindokuhlecebisa" target="_blank" rel="noopener noreferrer" class="inline-block bg-gradient-to-r from-[#C03998] to-[#36C6E8] text-white px-8 py-3 rounded-full text-lg font-semibold hover:from-[#36C6E8] hover:to-[#E836A3] transition duration-300 transform hover:scale-105 shadow-lg">
+         GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381/" target="_blank" rel="noopener noreferrer" class="inline-block bg-gradient-to-r from-[#C03998] to-[#36C6E8] text-white px-8 py-3 rounded-full text-lg font-semibold hover:from-[#36C6E8] hover:to-[#E836A3] transition duration-300 transform hover:scale-105 shadow-lg">
+        💼 LinkedIn
+      </a>
+    
+    </div>
+  </section>
+
+  <!-- JavaScript for custom cursor -->
+  <script>
+    const dot = document.getElementById('dot-of-i');
+
+    document.addEventListener('mousemove', function(e) {
+        if (dot) {
+            dot.style.left = e.clientX + 'px';
+            dot.style.top = e.clientY + 'px';
+        }
+    });
+
+  </script>
+
+</body>
+</html>
+
